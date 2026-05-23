@@ -1,13 +1,32 @@
-/* Media Query per tablet */
+/* Stile Accordion */
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+.faq-item.aperto .faq-content {
+    max-height: 100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+/* Media Query (Tablet/Mobile) */
 @media screen and (max-width: 768px) {
     .faq-container, #mio-form {
-        width: 95%;
-        margin: auto;
+        width: 90%;
+        margin: 20px auto;
     }
 }
 
-/* Accessibilità: Focus visibile per navigazione da tastiera */
+/* Accessibilità */
 button:focus, input:focus {
-    outline: 2px solid #0056b3;
+    outline: 3px solid #ffcc00;
     outline-offset: 2px;
 }
