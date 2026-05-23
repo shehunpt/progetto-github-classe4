@@ -1,32 +1,51 @@
-/* Stile Accordion */
-.faq-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-.faq-item.aperto .faq-content {
-    max-height: 100px;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
-/* Footer */
-footer {
+/* HERO */
+.hero {
+    background: url('img/gym.jpg') center/cover no-repeat;
+    padding: 120px 20px;
     text-align: center;
+    animation: fadeIn 1.5s ease;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SERVIZI */
+.servizi-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.servizio {
+    background: #222;
     padding: 20px;
-    background-color: #f4f4f4;
-    margin-top: 40px;
-    border-top: 1px solid #ccc;
+    border-left: 4px solid red;
+    border-radius: 5px;
 }
 
-/* Media Query (Tablet/Mobile) */
-@media screen and (max-width: 768px) {
-    .faq-container, #mio-form {
-        width: 90%;
-        margin: 20px auto;
-    }
-}
-
-/* Accessibilità */
-button:focus, input:focus {
-    outline: 3px solid #ffcc00;
-    outline-offset: 2px;
+/* TESTIMONIAL */
+.testimonial blockquote {
+    border-left: 4px solid red;
+    padding-left: 10px;
+    margin-bottom: 15px;
 }
