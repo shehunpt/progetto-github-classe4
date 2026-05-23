@@ -7,7 +7,7 @@
     max-height: 100px;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -16,7 +16,6 @@ footer {
     border-top: 1px solid #ccc;
 }
 
-/* Media Query (Tablet/Mobile) */
 @media screen and (max-width: 768px) {
     .faq-container, #mio-form {
         width: 90%;
@@ -24,7 +23,7 @@ footer {
     }
 }
 
-/* Accessibilità */
+
 button:focus, input:focus {
     outline: 3px solid #ffcc00;
     outline-offset: 2px;
