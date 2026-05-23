@@ -1,2 +1,1 @@
-# \# IronCore Gym - Il sito di Shehu
-
+# IronCore Gym - Il sito di Shehu
