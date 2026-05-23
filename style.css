@@ -1,13 +1,13 @@
-
-.faq-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.faq-item.aperto .faq-content {
-  max-height: 100px; 
-}
+/* Media Query per tablet */
 @media screen and (max-width: 768px) {
-    .faq-container, .form-container { width: 90%; }
+    .faq-container, #mio-form {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+/* Accessibilità: Focus visibile per navigazione da tastiera */
+button:focus, input:focus {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
 }
