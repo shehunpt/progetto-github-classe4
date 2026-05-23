@@ -1,1 +1,10 @@
 
+.faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item.aperto .faq-content {
+  max-height: 100px; 
+}
