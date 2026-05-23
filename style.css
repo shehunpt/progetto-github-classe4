@@ -8,3 +8,6 @@
 .faq-item.aperto .faq-content {
   max-height: 100px; 
 }
+@media screen and (max-width: 768px) {
+    .faq-container, .form-container { width: 90%; }
+}
